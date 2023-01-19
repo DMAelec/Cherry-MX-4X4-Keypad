@@ -1,0 +1,1131 @@
+EESchema Schematic File Version 4
+LIBS:KEYPAD_4X4_MX-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2021-11-07"
+Rev "0"
+Comp "DMA"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9056 2516 9056 2606
+Wire Wire Line
+	9056 2966 9056 3056
+Wire Wire Line
+	9056 3506 9056 3596
+Wire Wire Line
+	9056 4006 9056 4096
+Wire Wire Line
+	8166 2516 8166 2606
+Wire Wire Line
+	6386 2516 6386 2606
+Wire Wire Line
+	6386 2966 6386 3056
+Wire Wire Line
+	8166 2966 8166 3056
+Wire Wire Line
+	6386 3506 6386 3596
+Wire Wire Line
+	7326 3506 7326 3596
+Wire Wire Line
+	8166 3506 8166 3596
+Wire Wire Line
+	6386 4006 6386 4096
+Wire Wire Line
+	7326 4006 7326 4096
+Wire Wire Line
+	8166 4006 8166 4096
+Wire Wire Line
+	6386 3596 5886 3596
+Wire Wire Line
+	6386 4096 5886 4096
+Text GLabel 5886 2606 0    50   Input ~ 10
+R1
+Text GLabel 5876 3056 0    50   Input ~ 10
+R2
+Text GLabel 5886 3596 0    50   Input ~ 10
+R3
+Text GLabel 5886 4096 0    50   Input ~ 10
+R4
+Text GLabel 7086 2156 1    50   Input ~ 10
+C1
+Text GLabel 8026 2156 1    50   Input ~ 10
+C2
+Text GLabel 8866 2156 1    50   Input ~ 10
+C3
+Text GLabel 9756 2156 1    50   Input ~ 10
+C4
+Wire Wire Line
+	5886 2606 6386 2606
+Wire Wire Line
+	5876 3056 6386 3056
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 618663CD
+P 994 6386
+F 0 "H1" H 1094 6433 50  0000 L CNN
+F 1 "MountingHole" H 1094 6340 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 994 6386 50  0001 C CNN
+F 3 "~" H 994 6386 50  0001 C CNN
+	1    994  6386
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6186713C
+P 974 6722
+F 0 "H2" H 1074 6769 50  0000 L CNN
+F 1 "MountingHole" H 1074 6676 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 974 6722 50  0001 C CNN
+F 3 "~" H 974 6722 50  0001 C CNN
+	1    974  6722
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61867D18
+P 994 7011
+F 0 "H3" H 1094 7058 50  0000 L CNN
+F 1 "MountingHole" H 1094 6965 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 994 7011 50  0001 C CNN
+F 3 "~" H 994 7011 50  0001 C CNN
+	1    994  7011
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 618689EC
+P 994 7259
+F 0 "H4" H 1094 7306 50  0000 L CNN
+F 1 "MountingHole" H 1094 7213 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 994 7259 50  0001 C CNN
+F 3 "~" H 994 7259 50  0001 C CNN
+	1    994  7259
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 617F523C
+P 6536 2966
+F 0 "D5" H 6536 3185 50  0000 C CNN
+F 1 "D" H 6536 3092 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6536 2966 50  0001 C CNN
+F 3 "~" H 6536 2966 50  0001 C CNN
+	1    6536 2966
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 617F59A7
+P 6536 2516
+F 0 "D1" H 6536 2735 50  0000 C CNN
+F 1 "D" H 6536 2642 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6536 2516 50  0001 C CNN
+F 3 "~" H 6536 2516 50  0001 C CNN
+	1    6536 2516
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 617F5E7E
+P 6536 3506
+F 0 "D9" H 6536 3725 50  0000 C CNN
+F 1 "D" H 6536 3632 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6536 3506 50  0001 C CNN
+F 3 "~" H 6536 3506 50  0001 C CNN
+	1    6536 3506
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 617F6684
+P 6536 4006
+F 0 "D13" H 6536 4225 50  0000 C CNN
+F 1 "D" H 6536 4132 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6536 4006 50  0001 C CNN
+F 3 "~" H 6536 4006 50  0001 C CNN
+	1    6536 4006
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 617F82DB
+P 8316 4006
+F 0 "D15" H 8316 4225 50  0000 C CNN
+F 1 "D" H 8316 4132 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8316 4006 50  0001 C CNN
+F 3 "~" H 8316 4006 50  0001 C CNN
+	1    8316 4006
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 617F82E1
+P 8316 3506
+F 0 "D11" H 8316 3725 50  0000 C CNN
+F 1 "D" H 8316 3632 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8316 3506 50  0001 C CNN
+F 3 "~" H 8316 3506 50  0001 C CNN
+	1    8316 3506
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 617F82E7
+P 8316 2966
+F 0 "D7" H 8316 3185 50  0000 C CNN
+F 1 "D" H 8316 3092 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8316 2966 50  0001 C CNN
+F 3 "~" H 8316 2966 50  0001 C CNN
+	1    8316 2966
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 617F82ED
+P 7476 4006
+F 0 "D14" H 7476 4225 50  0000 C CNN
+F 1 "D" H 7476 4132 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7476 4006 50  0001 C CNN
+F 3 "~" H 7476 4006 50  0001 C CNN
+	1    7476 4006
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 617FC0A1
+P 7476 3506
+F 0 "D10" H 7476 3725 50  0000 C CNN
+F 1 "D" H 7476 3632 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7476 3506 50  0001 C CNN
+F 3 "~" H 7476 3506 50  0001 C CNN
+	1    7476 3506
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 617FC0A7
+P 7476 2966
+F 0 "D6" H 7476 3185 50  0000 C CNN
+F 1 "D" H 7476 3092 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7476 2966 50  0001 C CNN
+F 3 "~" H 7476 2966 50  0001 C CNN
+	1    7476 2966
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 617FC0AD
+P 7476 2516
+F 0 "D2" H 7476 2735 50  0000 C CNN
+F 1 "D" H 7476 2642 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7476 2516 50  0001 C CNN
+F 3 "~" H 7476 2516 50  0001 C CNN
+	1    7476 2516
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 617FC0B3
+P 8316 2516
+F 0 "D3" H 8316 2735 50  0000 C CNN
+F 1 "D" H 8316 2642 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8316 2516 50  0001 C CNN
+F 3 "~" H 8316 2516 50  0001 C CNN
+	1    8316 2516
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 617FFB7B
+P 9206 4006
+F 0 "D16" H 9206 4225 50  0000 C CNN
+F 1 "D" H 9206 4132 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9206 4006 50  0001 C CNN
+F 3 "~" H 9206 4006 50  0001 C CNN
+	1    9206 4006
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 617FFB81
+P 9206 3506
+F 0 "D12" H 9206 3725 50  0000 C CNN
+F 1 "D" H 9206 3632 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9206 3506 50  0001 C CNN
+F 3 "~" H 9206 3506 50  0001 C CNN
+	1    9206 3506
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 617FFB87
+P 9206 2966
+F 0 "D8" H 9206 3185 50  0000 C CNN
+F 1 "D" H 9206 3092 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9206 2966 50  0001 C CNN
+F 3 "~" H 9206 2966 50  0001 C CNN
+	1    9206 2966
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 617FFB8D
+P 9206 2516
+F 0 "D4" H 9206 2735 50  0000 C CNN
+F 1 "D" H 9206 2642 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9206 2516 50  0001 C CNN
+F 3 "~" H 9206 2516 50  0001 C CNN
+	1    9206 2516
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7326 2966 7326 3056
+Wire Wire Line
+	7326 2516 7326 2606
+Wire Wire Line
+	6386 2606 6386 2605
+Wire Wire Line
+	6386 2606 7326 2606
+Connection ~ 6386 2606
+Wire Wire Line
+	6386 3056 6386 3055
+Wire Wire Line
+	6386 3056 7326 3056
+Connection ~ 6386 3056
+Wire Wire Line
+	6386 3596 6386 3595
+Wire Wire Line
+	6386 3596 7326 3596
+Connection ~ 6386 3596
+Wire Wire Line
+	6386 4096 6386 4095
+Wire Wire Line
+	6386 4096 7326 4096
+Connection ~ 6386 4096
+Wire Wire Line
+	7326 2606 7326 2604
+Wire Wire Line
+	7326 2606 8166 2606
+Connection ~ 7326 2606
+Wire Wire Line
+	7326 3056 8166 3056
+Connection ~ 7326 3056
+Wire Wire Line
+	7326 3596 7326 3595
+Wire Wire Line
+	7326 3596 8166 3596
+Connection ~ 7326 3596
+Connection ~ 7326 4096
+Wire Wire Line
+	7326 4096 8166 4096
+Connection ~ 8166 4096
+Wire Wire Line
+	8166 4096 9056 4096
+Wire Wire Line
+	8166 3596 8166 3594
+Wire Wire Line
+	8166 3596 9056 3596
+Connection ~ 8166 3596
+Wire Wire Line
+	8166 3056 9056 3056
+Connection ~ 8166 3056
+Wire Wire Line
+	8166 2606 9056 2606
+Connection ~ 8166 2606
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 61826454
+P 4040 6740
+F 0 "J1" H 4120 6732 50  0000 L CNN
+F 1 "Conn_01x10" H 4120 6639 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4040 6740 50  0001 C CNN
+F 3 "~" H 4040 6740 50  0001 C CNN
+	1    4040 6740
+	1    0    0    -1  
+$EndComp
+Text GLabel 3840 6340 0    50   Input ~ 10
+R1
+Text GLabel 3840 6440 0    50   Input ~ 10
+R2
+Text GLabel 3840 6640 0    50   Input ~ 10
+R4
+Text GLabel 3840 6540 0    50   Input ~ 10
+R3
+Text GLabel 3840 6740 0    50   Input ~ 10
+C1
+Text GLabel 3840 6840 0    50   Input ~ 10
+C2
+Text GLabel 3840 6940 0    50   Input ~ 10
+C3
+Text GLabel 3840 7040 0    50   Input ~ 10
+C4
+Text GLabel 3840 7140 0    50   Input ~ 10
+LED+
+Text GLabel 3840 7240 0    50   Input ~ 10
+LED-
+$Comp
+L Device:LED LED11
+U 1 1 619A0CFC
+P 2973 2236
+F 0 "LED11" H 2966 2455 50  0000 C CNN
+F 1 "LED" H 2966 2362 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 2236 50  0001 C CNN
+F 3 "~" H 2973 2236 50  0001 C CNN
+	1    2973 2236
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED LED12
+U 1 1 619A0D02
+P 2973 2608
+F 0 "LED12" H 2966 2827 50  0000 C CNN
+F 1 "LED" H 2966 2734 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 2608 50  0001 C CNN
+F 3 "~" H 2973 2608 50  0001 C CNN
+	1    2973 2608
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED LED13
+U 1 1 619A0D08
+P 2973 2964
+F 0 "LED13" H 2966 3183 50  0000 C CNN
+F 1 "LED" H 2966 3090 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 2964 50  0001 C CNN
+F 3 "~" H 2973 2964 50  0001 C CNN
+	1    2973 2964
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED LED14
+U 1 1 619A0D0E
+P 2973 3335
+F 0 "LED14" H 2966 3554 50  0000 C CNN
+F 1 "LED" H 2966 3461 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 3335 50  0001 C CNN
+F 3 "~" H 2973 3335 50  0001 C CNN
+	1    2973 3335
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED LED15
+U 1 1 619A0D14
+P 2973 3684
+F 0 "LED15" H 2966 3903 50  0000 C CNN
+F 1 "LED" H 2966 3810 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 3684 50  0001 C CNN
+F 3 "~" H 2973 3684 50  0001 C CNN
+	1    2973 3684
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED LED16
+U 1 1 619A0D1A
+P 2973 4045
+F 0 "LED16" H 2966 4264 50  0000 C CNN
+F 1 "LED" H 2966 4171 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 4045 50  0001 C CNN
+F 3 "~" H 2973 4045 50  0001 C CNN
+	1    2973 4045
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2823 1508 2733 1508
+$Comp
+L Device:LED LED9
+U 1 1 619A0D2B
+P 2973 1508
+F 0 "LED9" H 2966 1727 50  0000 C CNN
+F 1 "LED" H 2966 1634 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 1508 50  0001 C CNN
+F 3 "~" H 2973 1508 50  0001 C CNN
+	1    2973 1508
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2823 2236 2733 2236
+Wire Wire Line
+	2823 2608 2733 2608
+Wire Wire Line
+	2823 2964 2733 2964
+Wire Wire Line
+	2823 3335 2733 3335
+Wire Wire Line
+	2823 3684 2733 3684
+Wire Wire Line
+	2823 4045 2733 4045
+Wire Wire Line
+	2823 1869 2733 1869
+$Comp
+L Device:LED LED10
+U 1 1 619A0D38
+P 2973 1869
+F 0 "LED10" H 2966 2088 50  0000 C CNN
+F 1 "LED" H 2966 1995 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2973 1869 50  0001 C CNN
+F 3 "~" H 2973 1869 50  0001 C CNN
+	1    2973 1869
+	-1   0    0    1   
+$EndComp
+Connection ~ 2733 3684
+Wire Wire Line
+	2733 3684 2733 4045
+Connection ~ 2733 3335
+Wire Wire Line
+	2733 3335 2733 3684
+Connection ~ 2733 2964
+Wire Wire Line
+	2733 2964 2733 3335
+Connection ~ 2733 2608
+Wire Wire Line
+	2733 2608 2733 2964
+Connection ~ 2733 2236
+Wire Wire Line
+	2733 2236 2733 2608
+Connection ~ 2733 1869
+Wire Wire Line
+	2733 1869 2733 2236
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 619F1E1E
+P 1021 7512
+F 0 "H5" H 1121 7559 50  0000 L CNN
+F 1 "MountingHole" H 1121 7466 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1021 7512 50  0001 C CNN
+F 3 "~" H 1021 7512 50  0001 C CNN
+	1    1021 7512
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual_x2 SW1
+U 1 1 61A02549
+P 6886 2516
+F 0 "SW1" H 6886 2806 50  0000 C CNN
+F 1 "R1C1" H 6886 2713 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6886 2716 50  0001 C CNN
+F 3 "~" H 6886 2716 50  0001 C CNN
+	1    6886 2516
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7086 2156 7086 2516
+Connection ~ 7086 2516
+Wire Wire Line
+	7086 2516 7086 2966
+Wire Wire Line
+	8026 2156 8026 2516
+Wire Wire Line
+	8866 2156 8866 2516
+Wire Wire Line
+	9756 2156 9756 2516
+$Comp
+L Switch:SW_Push_Dual_x2 SW2
+U 1 1 61A711CB
+P 7826 2516
+F 0 "SW2" H 7826 2806 50  0000 C CNN
+F 1 "R1C2" H 7826 2713 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7826 2716 50  0001 C CNN
+F 3 "~" H 7826 2716 50  0001 C CNN
+	1    7826 2516
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8026 2516
+Wire Wire Line
+	8026 2516 8026 2966
+$Comp
+L Switch:SW_Push_Dual_x2 SW3
+U 1 1 61A7AB36
+P 8666 2516
+F 0 "SW3" H 8666 2806 50  0000 C CNN
+F 1 "R1C3" H 8666 2713 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8666 2716 50  0001 C CNN
+F 3 "~" H 8666 2716 50  0001 C CNN
+	1    8666 2516
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8866 2516
+Wire Wire Line
+	8866 2516 8866 2966
+$Comp
+L Switch:SW_Push_Dual_x2 SW4
+U 1 1 61A8483A
+P 9556 2516
+F 0 "SW4" H 9556 2806 50  0000 C CNN
+F 1 "R1C4" H 9556 2713 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9556 2716 50  0001 C CNN
+F 3 "~" H 9556 2716 50  0001 C CNN
+	1    9556 2516
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9756 2516
+Wire Wire Line
+	9756 2516 9756 2966
+$Comp
+L Switch:SW_Push_Dual_x2 SW5
+U 1 1 61A8E38E
+P 6886 2966
+F 0 "SW5" H 6886 3256 50  0000 C CNN
+F 1 "R2C1" H 6886 3163 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6886 3166 50  0001 C CNN
+F 3 "~" H 6886 3166 50  0001 C CNN
+	1    6886 2966
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7086 2966
+Wire Wire Line
+	7086 2966 7086 3506
+$Comp
+L Switch:SW_Push_Dual_x2 SW6
+U 1 1 61A9814D
+P 7826 2966
+F 0 "SW6" H 7826 3256 50  0000 C CNN
+F 1 "R2C2" H 7826 3163 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7826 3166 50  0001 C CNN
+F 3 "~" H 7826 3166 50  0001 C CNN
+	1    7826 2966
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8026 2966
+Wire Wire Line
+	8026 2966 8026 3506
+$Comp
+L Switch:SW_Push_Dual_x2 SW7
+U 1 1 61AA25FE
+P 8666 2966
+F 0 "SW7" H 8666 3256 50  0000 C CNN
+F 1 "R2C3" H 8666 3163 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8666 3166 50  0001 C CNN
+F 3 "~" H 8666 3166 50  0001 C CNN
+	1    8666 2966
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8866 2966
+Wire Wire Line
+	8866 2966 8866 3506
+$Comp
+L Switch:SW_Push_Dual_x2 SW8
+U 1 1 61AAC8E4
+P 9556 2966
+F 0 "SW8" H 9556 3256 50  0000 C CNN
+F 1 "R2C4" H 9556 3163 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9556 3166 50  0001 C CNN
+F 3 "~" H 9556 3166 50  0001 C CNN
+	1    9556 2966
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9756 2966
+Wire Wire Line
+	9756 2966 9756 3506
+$Comp
+L Switch:SW_Push_Dual_x2 SW9
+U 1 1 61AB6C8E
+P 6886 3506
+F 0 "SW9" H 6886 3796 50  0000 C CNN
+F 1 "R3C1" H 6886 3703 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6886 3706 50  0001 C CNN
+F 3 "~" H 6886 3706 50  0001 C CNN
+	1    6886 3506
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7086 3506
+Wire Wire Line
+	7086 3506 7086 4006
+$Comp
+L Switch:SW_Push_Dual_x2 SW10
+U 1 1 61AC1782
+P 7826 3506
+F 0 "SW10" H 7826 3796 50  0000 C CNN
+F 1 "R3C2" H 7826 3703 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7826 3706 50  0001 C CNN
+F 3 "~" H 7826 3706 50  0001 C CNN
+	1    7826 3506
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8026 3506
+Wire Wire Line
+	8026 3506 8026 4006
+$Comp
+L Switch:SW_Push_Dual_x2 SW11
+U 1 1 61ACC0B1
+P 8666 3506
+F 0 "SW11" H 8666 3796 50  0000 C CNN
+F 1 "R3C3" H 8666 3703 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8666 3706 50  0001 C CNN
+F 3 "~" H 8666 3706 50  0001 C CNN
+	1    8666 3506
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8866 3506
+Wire Wire Line
+	8866 3506 8866 4006
+$Comp
+L Switch:SW_Push_Dual_x2 SW12
+U 1 1 61AD6B28
+P 9556 3506
+F 0 "SW12" H 9556 3796 50  0000 C CNN
+F 1 "R3C4" H 9556 3703 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9556 3706 50  0001 C CNN
+F 3 "~" H 9556 3706 50  0001 C CNN
+	1    9556 3506
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9756 3506
+Wire Wire Line
+	9756 3506 9756 4006
+$Comp
+L Switch:SW_Push_Dual_x2 SW13
+U 1 1 61AE19C6
+P 6886 4006
+F 0 "SW13" H 6886 4296 50  0000 C CNN
+F 1 "R4C1" H 6886 4203 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6886 4206 50  0001 C CNN
+F 3 "~" H 6886 4206 50  0001 C CNN
+	1    6886 4006
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual_x2 SW14
+U 1 1 61AEC84A
+P 7826 4006
+F 0 "SW14" H 7826 4296 50  0000 C CNN
+F 1 "R4C2" H 7826 4203 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7826 4206 50  0001 C CNN
+F 3 "~" H 7826 4206 50  0001 C CNN
+	1    7826 4006
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual_x2 SW15
+U 1 1 61AF7924
+P 8666 4006
+F 0 "SW15" H 8666 4296 50  0000 C CNN
+F 1 "R4C3" H 8666 4203 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8666 4206 50  0001 C CNN
+F 3 "~" H 8666 4206 50  0001 C CNN
+	1    8666 4006
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual_x2 SW16
+U 1 1 61B02AFC
+P 9556 4006
+F 0 "SW16" H 9556 4296 50  0000 C CNN
+F 1 "R4C4" H 9556 4203 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 9556 4206 50  0001 C CNN
+F 3 "~" H 9556 4206 50  0001 C CNN
+	1    9556 4006
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 61937333
+P 3273 1508
+F 0 "R9" V 3063 1508 50  0000 C CNN
+F 1 "220" V 3156 1508 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 1498 50  0001 C CNN
+F 3 "~" H 3273 1508 50  0001 C CNN
+	1    3273 1508
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 6193CF42
+P 3273 1869
+F 0 "R10" V 3063 1869 50  0000 C CNN
+F 1 "220" V 3156 1869 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 1859 50  0001 C CNN
+F 3 "~" H 3273 1869 50  0001 C CNN
+	1    3273 1869
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 61942E3F
+P 3273 2236
+F 0 "R11" V 3063 2236 50  0000 C CNN
+F 1 "220" V 3156 2236 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 2226 50  0001 C CNN
+F 3 "~" H 3273 2236 50  0001 C CNN
+	1    3273 2236
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 61948E93
+P 3273 2608
+F 0 "R12" V 3063 2608 50  0000 C CNN
+F 1 "220" V 3156 2608 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 2598 50  0001 C CNN
+F 3 "~" H 3273 2608 50  0001 C CNN
+	1    3273 2608
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 6194C1D6
+P 3273 2964
+F 0 "R13" V 3063 2964 50  0000 C CNN
+F 1 "220" V 3156 2964 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 2954 50  0001 C CNN
+F 3 "~" H 3273 2964 50  0001 C CNN
+	1    3273 2964
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 6194F436
+P 3273 3335
+F 0 "R14" V 3063 3335 50  0000 C CNN
+F 1 "220" V 3156 3335 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 3325 50  0001 C CNN
+F 3 "~" H 3273 3335 50  0001 C CNN
+	1    3273 3335
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 619551CB
+P 3273 3684
+F 0 "R15" V 3063 3684 50  0000 C CNN
+F 1 "220" V 3156 3684 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 3674 50  0001 C CNN
+F 3 "~" H 3273 3684 50  0001 C CNN
+	1    3273 3684
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R16
+U 1 1 619583E6
+P 3273 4045
+F 0 "R16" V 3063 4045 50  0000 C CNN
+F 1 "220" V 3156 4045 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3313 4035 50  0001 C CNN
+F 3 "~" H 3273 4045 50  0001 C CNN
+	1    3273 4045
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3513 4045 3423 4045
+Wire Wire Line
+	3513 3684 3423 3684
+Wire Wire Line
+	3513 3335 3423 3335
+Wire Wire Line
+	3513 2964 3423 2964
+Wire Wire Line
+	3513 2608 3423 2608
+Wire Wire Line
+	3513 2236 3423 2236
+Wire Wire Line
+	3513 1869 3423 1869
+Wire Wire Line
+	3513 1508 3423 1508
+Connection ~ 2733 1508
+Wire Wire Line
+	2733 1508 2733 1869
+Wire Wire Line
+	3513 1508 3513 1869
+Connection ~ 3513 1869
+Wire Wire Line
+	3513 1869 3513 2236
+Connection ~ 3513 2236
+Wire Wire Line
+	3513 2236 3513 2608
+Connection ~ 3513 2608
+Wire Wire Line
+	3513 2608 3513 2964
+Connection ~ 3513 2964
+Wire Wire Line
+	3513 2964 3513 3335
+Connection ~ 3513 3335
+Wire Wire Line
+	3513 3335 3513 3684
+Connection ~ 3513 3684
+Wire Wire Line
+	3513 3684 3513 4045
+Connection ~ 3513 4045
+Wire Wire Line
+	3513 4045 3513 4364
+Wire Wire Line
+	2733 1244 2733 1508
+$Comp
+L Device:R_US R1
+U 1 1 61909A6B
+P 1837 1509
+F 0 "R1" V 1627 1509 50  0000 C CNN
+F 1 "220" V 1720 1509 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 1499 50  0001 C CNN
+F 3 "~" H 1837 1509 50  0001 C CNN
+	1    1837 1509
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 6190E53A
+P 1837 1870
+F 0 "R2" V 1627 1870 50  0000 C CNN
+F 1 "220" V 1720 1870 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 1860 50  0001 C CNN
+F 3 "~" H 1837 1870 50  0001 C CNN
+	1    1837 1870
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1597 4046 1597 3685
+Connection ~ 1597 4046
+Wire Wire Line
+	1597 3685 1597 3336
+Connection ~ 1597 3685
+Wire Wire Line
+	1597 3336 1597 2965
+Connection ~ 1597 3336
+Wire Wire Line
+	1597 2965 1597 2609
+Connection ~ 1597 2965
+Wire Wire Line
+	1597 2609 1597 2237
+Connection ~ 1597 2609
+Wire Wire Line
+	1597 2237 1597 1870
+Connection ~ 1597 2237
+Wire Wire Line
+	1597 1870 1597 1509
+Connection ~ 1597 1870
+Wire Wire Line
+	1597 4364 1597 4046
+Wire Wire Line
+	2377 1509 2377 1870
+Connection ~ 2377 1509
+Wire Wire Line
+	2377 1244 2377 1509
+Wire Wire Line
+	1597 4046 1687 4046
+Wire Wire Line
+	1597 3685 1687 3685
+Wire Wire Line
+	1597 3336 1687 3336
+Wire Wire Line
+	1597 2965 1687 2965
+Wire Wire Line
+	1597 2609 1687 2609
+Wire Wire Line
+	1597 2237 1687 2237
+Wire Wire Line
+	1597 1870 1687 1870
+Wire Wire Line
+	1597 1509 1687 1509
+$Comp
+L Device:R_US R8
+U 1 1 619314EC
+P 1837 4046
+F 0 "R8" V 1627 4046 50  0000 C CNN
+F 1 "220" V 1720 4046 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 4036 50  0001 C CNN
+F 3 "~" H 1837 4046 50  0001 C CNN
+	1    1837 4046
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 6192B60E
+P 1837 3685
+F 0 "R7" V 1627 3685 50  0000 C CNN
+F 1 "220" V 1720 3685 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 3675 50  0001 C CNN
+F 3 "~" H 1837 3685 50  0001 C CNN
+	1    1837 3685
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 61925AD1
+P 1837 3336
+F 0 "R6" V 1627 3336 50  0000 C CNN
+F 1 "220" V 1720 3336 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 3326 50  0001 C CNN
+F 3 "~" H 1837 3336 50  0001 C CNN
+	1    1837 3336
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 6191FFF3
+P 1837 2965
+F 0 "R5" V 1627 2965 50  0000 C CNN
+F 1 "220" V 1720 2965 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 2955 50  0001 C CNN
+F 3 "~" H 1837 2965 50  0001 C CNN
+	1    1837 2965
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 61919EA2
+P 1837 2609
+F 0 "R4" V 1627 2609 50  0000 C CNN
+F 1 "220" V 1720 2609 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 2599 50  0001 C CNN
+F 3 "~" H 1837 2609 50  0001 C CNN
+	1    1837 2609
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 6191414A
+P 1837 2237
+F 0 "R3" V 1627 2237 50  0000 C CNN
+F 1 "220" V 1720 2237 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1877 2227 50  0001 C CNN
+F 3 "~" H 1837 2237 50  0001 C CNN
+	1    1837 2237
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2377 1870 2377 2237
+Connection ~ 2377 1870
+Wire Wire Line
+	2377 2237 2377 2609
+Connection ~ 2377 2237
+Wire Wire Line
+	2377 2609 2377 2965
+Connection ~ 2377 2609
+Wire Wire Line
+	2377 2965 2377 3336
+Connection ~ 2377 2965
+Wire Wire Line
+	2377 3336 2377 3685
+Connection ~ 2377 3336
+Wire Wire Line
+	2377 3685 2377 4046
+Connection ~ 2377 3685
+$Comp
+L Device:LED LED2
+U 1 1 616469C6
+P 2137 1870
+F 0 "LED2" H 2130 2089 50  0000 C CNN
+F 1 "LED" H 2130 1996 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 1870 50  0001 C CNN
+F 3 "~" H 2137 1870 50  0001 C CNN
+	1    2137 1870
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2287 1870 2377 1870
+Wire Wire Line
+	2287 4046 2377 4046
+Wire Wire Line
+	2287 3685 2377 3685
+Wire Wire Line
+	2287 3336 2377 3336
+Wire Wire Line
+	2287 2965 2377 2965
+Wire Wire Line
+	2287 2609 2377 2609
+Wire Wire Line
+	2287 2237 2377 2237
+$Comp
+L Device:LED LED1
+U 1 1 61645CE4
+P 2137 1509
+F 0 "LED1" H 2130 1728 50  0000 C CNN
+F 1 "LED" H 2130 1635 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 1509 50  0001 C CNN
+F 3 "~" H 2137 1509 50  0001 C CNN
+	1    2137 1509
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2287 1509 2377 1509
+$Comp
+L Device:LED LED8
+U 1 1 616618BA
+P 2137 4046
+F 0 "LED8" H 2130 4265 50  0000 C CNN
+F 1 "LED" H 2130 4172 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 4046 50  0001 C CNN
+F 3 "~" H 2137 4046 50  0001 C CNN
+	1    2137 4046
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED LED7
+U 1 1 616618AE
+P 2137 3685
+F 0 "LED7" H 2130 3904 50  0000 C CNN
+F 1 "LED" H 2130 3811 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 3685 50  0001 C CNN
+F 3 "~" H 2137 3685 50  0001 C CNN
+	1    2137 3685
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED LED6
+U 1 1 6165E891
+P 2137 3336
+F 0 "LED6" H 2130 3555 50  0000 C CNN
+F 1 "LED" H 2130 3462 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 3336 50  0001 C CNN
+F 3 "~" H 2137 3336 50  0001 C CNN
+	1    2137 3336
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED LED5
+U 1 1 6165E885
+P 2137 2965
+F 0 "LED5" H 2130 3184 50  0000 C CNN
+F 1 "LED" H 2130 3091 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 2965 50  0001 C CNN
+F 3 "~" H 2137 2965 50  0001 C CNN
+	1    2137 2965
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED LED4
+U 1 1 6165C6B4
+P 2137 2609
+F 0 "LED4" H 2130 2828 50  0000 C CNN
+F 1 "LED" H 2130 2735 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 2609 50  0001 C CNN
+F 3 "~" H 2137 2609 50  0001 C CNN
+	1    2137 2609
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED LED3
+U 1 1 6165C6A8
+P 2137 2237
+F 0 "LED3" H 2130 2456 50  0000 C CNN
+F 1 "LED" H 2130 2363 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2137 2237 50  0001 C CNN
+F 3 "~" H 2137 2237 50  0001 C CNN
+	1    2137 2237
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2456 4440 2456 4364
+Text GLabel 2456 4440 3    50   Input ~ 10
+LED-
+Wire Wire Line
+	2377 1244 2538 1244
+Wire Wire Line
+	2538 1090 2538 1244
+Text GLabel 2538 1090 1    50   Input ~ 10
+LED+
+Connection ~ 2538 1244
+Wire Wire Line
+	2538 1244 2733 1244
+Wire Wire Line
+	1597 4364 2456 4364
+Connection ~ 2456 4364
+Wire Wire Line
+	2456 4364 3513 4364
+$EndSCHEMATC
